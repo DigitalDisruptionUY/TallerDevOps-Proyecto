@@ -91,12 +91,12 @@ Para ver cómo el servicio reparte las solicitudes entre los pods:
 
 2. En otra terminal, hacemos peticiones a la URL del servicio para ver cómo van respondiendo:
    ```bash
-   curl <URL_SERVICIO>
+   curl <URL del servicio>
    ```
 
 ### Escalar réplicas en caliente
 Para sumar o reducir réplicas del despliegue sin reiniciar nada (por ejemplo, subir a 4):
 
 ```bash
-minikube kubectl -- scale deployment nginx-deployment --replicas=4
+minikube kubectl -- scale deployment nginx-deployment --replicas=<Número de réplicas>
 ```
