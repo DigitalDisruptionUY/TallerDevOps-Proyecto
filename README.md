@@ -12,6 +12,9 @@
 
 ---
 
+### Requerimientos
+Antes de comenzar, es necesario contar con Docker instalado en el sistema
+
 ## 1. Instalar Minikube
 
 Para Linux (AMD64): 
